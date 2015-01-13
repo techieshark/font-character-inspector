@@ -1,6 +1,6 @@
 $(window).load(function () {
 		var svgns = 'http://www.w3.org/2000/svg';
-		var svgUrl = 'font.svg';
+		var svgUrl = 'fonts/font.svg';
 
 		$('#svg').load(svgUrl, function (svgUrl) {
 			// Insert content of the SVG file in our invisible DOM node
